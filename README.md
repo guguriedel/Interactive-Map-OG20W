@@ -4,7 +4,7 @@ A Shiny app for visualizing offshore wind platforms, turbines, and historical en
 
 ![image](https://github.com/user-attachments/assets/3d70f4ae-f3e0-4f6e-83c1-4f97ff9cf69d)
 
-## Key Features 🚀
+## Key Features 
 - **Interactive Leaflet Map** with marker clustering and color-coded potential categories.
 - **Dynamic Filters**: Select platforms and turbines to analyze.
 - **Real-Time Analytics**:
@@ -13,13 +13,13 @@ A Shiny app for visualizing offshore wind platforms, turbines, and historical en
 - **Secure Database Integration**: Connection pooling via `RPostgres` and `pool`.
 - **Responsive UI**: Spinners for loading states and clean layout.
 
-## Built With 🛠️
+## Built With 
 - **R** (Shiny, Leaflet, Plotly, dplyr)
 - **PostgreSQL** (Database)
 - **HTML/CSS** (Shiny UI Components)
 - **GitHub Actions** (Optional CI/CD)
 
-## Database Structure 📊
+## Database Structure 
 
 ### Overview
 Wind potential time series data was collected using [Renewable Ninja](https://www.renewables.ninja/). Contains **82 fixed offshore platforms** (active installations) with historical wind generation potential data. As operational data, **values may become outdated** over time.
